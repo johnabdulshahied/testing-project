@@ -91,3 +91,9 @@
     git push -u origin main                                                                 # push main to origin/main
 ```
 
+**Show the URLs of the remote repositories linked** to your project for fetching and pushing changes.
+
+```bash
+    git remote -v
+```
+
