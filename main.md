@@ -83,5 +83,11 @@
     git merge branch-name
 ```
 
+**connects your local repository to a remote one** on GitHub.
 
+```bash
+    git remote add origin https://github.com/johnabdulshahied/project-name.git              # Connect local repo Origin to github project URL origin
+    git branch -M main                                                                      # rename your master branch to main
+    git push -u origin main                                                                 # push main to origin/main
+```
 
