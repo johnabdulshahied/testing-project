@@ -64,5 +64,17 @@
     git checkout master                     # head -> master
 ```
 
+**Create a new branch** and immediately switches to it.
+
+```bash
+    git checkout -b branch-name
+```
+
+**list all branches and highlights the one you’re currently on** with an asterisk (`*`).
+
+```bash
+    git branch
+```
+
 
 
