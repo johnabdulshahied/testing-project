@@ -57,3 +57,8 @@ Display the commit history of the repository.
     git log -v              # verbose
 ```
 
+Move your project head to the exact state of that specific commit, putting you in a **detached HEAD state**.
+
+```bash
+    git checkout <commit-hash> 
+```
