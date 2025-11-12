@@ -70,10 +70,17 @@
     git checkout -b branch-name
 ```
 
-**list all branches and highlights the one you’re currently on** with an asterisk (`*`).
+**list all branches and highlights** the one you’re currently on with an asterisk (`*`).
 
 ```bash
     git branch
+```
+
+**Merge the changes** from the branch-name branch into your master branch.
+
+```bash
+    git checkout master
+    git merge branch-name
 ```
 
 
