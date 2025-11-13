@@ -125,3 +125,12 @@
     git pull                            # Pull from remote repo the branch you are currently on
     git pull origin main                # Pull explicitly the origin branch in the remote repository to the main branch in local repository
 ```
+
+**Tag the last commit** of the main branch.
+
+```bash
+    git checkout main                                       # switch to main branch
+    git tag -a v1.0 -m "Version 1.0 release"                # Create annotated tag (v1.0) with describtion (Version 1.0 release) for main last commit
+    git tag                                                 # Show existing tags
+    git push origin --tags                                  # Push all tags to the remote repository
+```
