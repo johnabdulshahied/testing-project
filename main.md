@@ -10,6 +10,10 @@
 
 **Merge** takes the updates made in one branch and applies them to another, bringing both branches’ work together into a unified history.
 
+**Fork** is a personal copy of someone else’s repository on your account, allowing you to freely experiment and make changes without affecting the original project.
+
+**Pull Request** is a rquest to ask the project owner to merge your changes on one branch or fork into his original repository’s branch.
+
 # Git Commands
 
 **Initializing a new Git repository** in the current directory, allowing you to start tracking your project's files with Git.
