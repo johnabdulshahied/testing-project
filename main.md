@@ -134,3 +134,9 @@
     git tag                                                 # Show existing tags
     git push origin --tags                                  # Push all tags to the remote repository
 ```
+
+**Switch your head to the commit marked by the v1.0 tag**, putting you in a detached HEAD state.
+
+```bash
+    git checkout v1.0
+```
