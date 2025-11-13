@@ -16,6 +16,8 @@
 
 **GitHub collaborators** are people who are given permission to access and contribute directly to a repository.
 
+**Git tags** are labels used to mark specific commits — usually for versions or releases (like v1.0, v2.0).
+
 # Git Commands
 
 **Initializing a new Git repository** in the current directory, allowing you to start tracking your project's files with Git.
