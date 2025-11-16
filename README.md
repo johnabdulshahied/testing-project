@@ -1,0 +1,1 @@
+Add readme file according to issue #3
