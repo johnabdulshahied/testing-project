@@ -18,6 +18,8 @@
 
 **Git tags** are labels used to mark specific commits — usually for versions or releases (like v1.0, v2.0).
 
+**Issues** are tasks or problem reports in GitHub that help track bugs, features, and work that needs to be done.
+
 # Git Commands
 
 **Initializing a new Git repository** in the current directory, allowing you to start tracking your project's files with Git.
@@ -139,4 +141,10 @@
 
 ```bash
     git checkout v1.0
+```
+
+**Automatically close issues**
+
+```bash
+git commit -m "Fix login bug. Closes #10"
 ```
